@@ -2,10 +2,11 @@ import turtle
 from turtle import *
 t = Turtle()
 t.shape('turtle')
-turtle.done()
 
 def square(x,y):
-    for i in range(60):
+    t.left(5)
+    for i in range(4):
+        t.speed(0)
         t.forward(x)
         t.left(y) # type: ignore
 square(4, 90)
@@ -17,12 +18,12 @@ def doubleSquares(iRange):
         length = length * 2
 doubleSquares(5)
  """
-""" def addSquares(iRange):
-    length = 25
+def addSquares(iRange):
+    length = 5
     for i in range(iRange):
-        square(length, 90)
-        length += 25
-addSquares(5) """
+        square(length, 144)
+        length += 5
+addSquares(60)
 
 
 
