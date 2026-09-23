@@ -21,7 +21,7 @@ doubleSquares(5)
 def addSquares(iRange):
     length = 5
     for i in range(iRange):
-        square(length, 144)
+        square(length, 90)
         length += 5
 addSquares(60)
 
